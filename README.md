@@ -2,4 +2,4 @@
 A Report card management system made using CPP 
 
 *Project in progress. 
-Will complete the documentation once finiished*
+Will complete the documentation once finished*
