@@ -11,9 +11,6 @@ private:
 	float OOPs, ADE, DS, COSM, COA, average;
 public:
 
-	//This function assigns values to all fields. A function is used instead of a constructor because dynamic memory 
-	//extension using vector is troublesome with constructors. Otherwise, We will have to create a parameter-less constructor.
-
 	void InsertData(string n, int r, float oop, float ade, float ds, float cosm, float coa)
 	{
 		name = n;
@@ -61,41 +58,7 @@ public:
 // 	   }
 	   
 // 	}
-// 	void adegrade()
-// 	{
-// 	   string oopgrade;
-	   
-// 	   if(OOPs>=90)
-// 	   {
-// 	       oopgrade=O;
-// 	   }
-// 	  else if(OOPs>=80&&OOPs<90)
-// 	   {
-// 	       oopgrade=A+;
-// 	   }
-// 	  else if(OOPs>=70&&OOPs<80)
-// 	   {
-// 	       oopgrade=A;
-// 	   }
-// 	  else if(OOPs>=60&&OOPs<70)
-// 	   {
-// 	       oopgrade=B+;
-// 	   }
-// 	  else if(OOPs>=50&&OOPs<60)
-// 	   {
-// 	       oopgrade=B;
-// 	   }
-// 	  else if(OOPs>=40&&OOPs<50)
-// 	   {
-// 	       oopgrade=C;
-// 	   }
-// 	  else (OOPs<40)
-// 	   {
-// 	       oopgrade=F;
-// 	   }
-	   
-// 	}
-// 	void coagrade()
+// 	void OOPsgrade()
 // 	{
 // 	   string oopgrade;
 	   
@@ -163,7 +126,7 @@ public:
 // 	   }
 	   
 // 	}
-// 	void dsgrade()
+// 	void OOPsgrade()
 // 	{
 // 	   string oopgrade;
 	   
@@ -197,8 +160,7 @@ public:
 // 	   }
 	   
 // 	}
-	
-// 	void cosmgrade()
+// 	void OOPsgrade()
 // 	{
 // 	   string oopgrade;
 	   
@@ -232,7 +194,6 @@ public:
 // 	   }
 	   
 // 	}
-	
 	
 
 //<---------Grade calculation section completed------->
@@ -289,11 +250,14 @@ void ShowStats()
 		cout << "DATABASE IS EMPTY\n" << endl;
 		return;
 	}
-
+    else{
+        
 	for (int i = 0; i < databaseSize; i++)
-		cout << database[i].GetRoll() + " ";
+		cout << database[i].GetRoll()<<endl;
 
-	cout << "\n" << endl;
+	cout<< "\n" << endl;
+}
+
 }
 
 void Add()
