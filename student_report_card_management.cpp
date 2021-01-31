@@ -123,10 +123,6 @@ int main()
 	return 0;
 }
 
-//***************************************************************
-//    	function to write in file
-//****************************************************************
-
 void write_student()
 {
 	student st;
@@ -140,9 +136,6 @@ void write_student()
 	cin.get();
 }
 
-//***************************************************************
-//    	function to read all records from file
-//****************************************************************
 
 void display_all()
 {
@@ -167,9 +160,6 @@ void display_all()
 	cin.get();
 }
 
-//***************************************************************
-//    	function to read specific record from file
-//****************************************************************
 
 void display_sp(int n)
 {
@@ -199,9 +189,7 @@ void display_sp(int n)
 	cin.get();
 }
 
-//***************************************************************
-//    	function to modify record of file
-//****************************************************************
+
 
 void modify_student(int n)
 {
@@ -239,9 +227,7 @@ void modify_student(int n)
 	cin.get();
 }
 
-//***************************************************************
-//    	function to delete record of file
-//****************************************************************
+
 
 void delete_student(int n)
 {
@@ -274,9 +260,8 @@ void delete_student(int n)
 	cin.get();
 }
 
-//***************************************************************
-//    	function to display all students grade report
-//****************************************************************
+
+
 
 void class_result()
 {
@@ -303,9 +288,7 @@ void class_result()
 	inFile.close();
 }
 
-//***************************************************************
-//    	function to display result menu
-//****************************************************************
+
 
 void result()
 {
@@ -313,9 +296,9 @@ void result()
 	int rno;
 	system("cls");
 	cout<<"\n\n\n\tRESULT MENU";
-	cout<<"\n\n\n\t1. Class Result";
+	cout<<"\n\n\n\t1. Class Report Card";
 	cout<<"\n\n\t2. Student Report Card";
-	cout<<"\n\n\t3. Back to Main Menu";
+	cout<<"\n\n\t3. Main Menu";
 	cout<<"\n\n\n\tEnter Choice (1/2/3)? ";
 	cin>>ch;
 	system("cls");
@@ -359,12 +342,12 @@ void entry_menu()
 	int num;
 	system("cls");
 	cout<<"\n\n\n\tENTRY MENU";
-	cout<<"\n\n\t1.CREATE STUDENT RECORD";
-	cout<<"\n\n\t2.DISPLAY ALL STUDENTS RECORDS";
-	cout<<"\n\n\t3.SEARCH STUDENT RECORD ";
-	cout<<"\n\n\t4.MODIFY STUDENT RECORD";
-	cout<<"\n\n\t5.DELETE STUDENT RECORD";
-	cout<<"\n\n\t6.BACK TO MAIN MENU";
+	cout<<"\n\n\t1.ADD STUDENT RECORD";
+	cout<<"\n\n\t2.DISPLAY ALL STUDENTS DATA";
+	cout<<"\n\n\t3.DISPLAY STUDENT DATA ";
+	cout<<"\n\n\t4.MODIFY STUDENT DATA";
+	cout<<"\n\n\t5.DELETE STUDENT DATA";
+	cout<<"\n\n\t6.MAIN MENU";
 	cout<<"\n\n\tPlease Enter Your Choice (1-6) ";
 	cin>>ch;
 	system("cls");
