@@ -29,7 +29,7 @@ To reproduce my code, download and extract the source code and open the Student_
 
 ### Prerequisites
 
-It would be best if your are familiar with the following concepts in C++ before jumping right into the project:
+It would be best if you are familiar with the following concepts in C++ before jumping right into the project:
 
 * C++ basics and syntax
 * Functions in C++
