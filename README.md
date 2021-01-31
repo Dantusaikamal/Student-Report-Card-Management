@@ -1,5 +1,5 @@
 # Student-Report-Card-Management
-A Report card management system made using CPP 
+A Report card management system made using CPP by Team #1, CSE B submitting for our Object Oriented Programming using C++ mini project in the academic year 2020-21.
 
 
 <!-- TABLE OF CONTENTS -->
