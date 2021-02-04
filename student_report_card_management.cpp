@@ -319,13 +319,13 @@ void result()
 
 void intro()
 {
-    cout<<" \t ______________________________________"<<endl;
+        cout<<" \t ______________________________________"<<endl;
 	cout<<"\t|             Welcome to               |"<<endl;
 	cout<<"\t|                                      |"<<endl;
-    cout<<"\t|                                      |"<<endl;
+        cout<<"\t|                                      |"<<endl;
 	cout<<"\t| CSE B STUDENT REPORT CARD MANAGEMENT |"<<endl;
 	cout<<"\t|                                      |"<<endl;
-    cout<<"\t|______________________________________|"<<endl;
+        cout<<"\t|______________________________________|"<<endl;
 	cout<<"\t|                                      |"<<endl;
 	cout<<"\t|                                      |"<<endl;
 	cout<<"\t|    Please Enter Any Key To Start!    |"<<endl;
@@ -339,9 +339,9 @@ void intro()
 	cout<<"\t|                                      |"<<endl;
 	cout<<"\t|                                      |"<<endl;
 	cout<<"\t|                                      |"<<endl;
-    cout<<"\t|          Developed by TEAM 1!        |"<<endl;
-    cout<<"\t|                                      |"<<endl;
-    cout<<"\t|______________________________________|"<<endl;
+        cout<<"\t|          Developed by TEAM 1!        |"<<endl;
+        cout<<"\t|                                      |"<<endl;
+        cout<<"\t|______________________________________|"<<endl;
 
 	cin.get();
 }
