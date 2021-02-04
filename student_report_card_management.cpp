@@ -96,6 +96,7 @@ void entry_menu();	//display entry menu on screen
 
 int main()
 {
+    system("Color 6");
 	char ch;
 	cout.setf(ios::fixed|ios::showpoint);
 	cout<<setprecision(2); // program outputs decimal number to two decimal places
@@ -318,16 +319,29 @@ void result()
 
 void intro()
 {
-    cout<<" \t______________________________________"<<endl;
+    cout<<" \t ______________________________________"<<endl;
 	cout<<"\t|             Welcome to               |"<<endl;
 	cout<<"\t|                                      |"<<endl;
     cout<<"\t|                                      |"<<endl;
 	cout<<"\t| CSE B STUDENT REPORT CARD MANAGEMENT |"<<endl;
 	cout<<"\t|                                      |"<<endl;
     cout<<"\t|______________________________________|"<<endl;
-	cout<<"\n\n\n\tPlease Enter Any Key To Start!";
-
-   cout<<"\n\n\n\n\n\n\n\n\n\tDeveloped by TEAM 1!"<<endl;
+	cout<<"\t|                                      |"<<endl;
+	cout<<"\t|                                      |"<<endl;
+	cout<<"\t|    Please Enter Any Key To Start!    |"<<endl;
+	cout<<"\t|                                      |"<<endl;
+	cout<<"\t|                                      |"<<endl;
+	cout<<"\t|                                      |"<<endl;
+	cout<<"\t|                                      |"<<endl;
+	cout<<"\t|                                      |"<<endl;
+	cout<<"\t|                                      |"<<endl;
+	cout<<"\t|                                      |"<<endl;
+	cout<<"\t|                                      |"<<endl;
+	cout<<"\t|                                      |"<<endl;
+	cout<<"\t|                                      |"<<endl;
+    cout<<"\t|          Developed by TEAM 1!        |"<<endl;
+    cout<<"\t|                                      |"<<endl;
+    cout<<"\t|______________________________________|"<<endl;
 
 	cin.get();
 }
