@@ -38,7 +38,10 @@ It would be best if you are familiar with the following concepts in C++ before j
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+## About the project
+
+
+![alt text](https://github.com/Dantusaikamal/Student-Report-Card-Management/blob/main/image.PNG?raw=true)
 
 Our project can be used to store, retrieve, display, insert, delete and modify  a student's marks in their subjects. The program is completely menu driven and there is no Graphical interface provided (It will be taken care in future releases)  
 
