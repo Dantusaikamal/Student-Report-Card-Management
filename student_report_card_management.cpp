@@ -21,7 +21,7 @@ public:
 	void showdata() const;
 	void show_tabular() const;
 	int retrollno() const;
-}; //class ends here
+};
 
 // Since our student function has variables that are only limited to that function, we will use scope resolution function to access marks of DS,OOPs,COSM,ADE,COA subjects.
 void student::calculate()
