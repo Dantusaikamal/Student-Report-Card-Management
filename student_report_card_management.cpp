@@ -6,7 +6,7 @@
 #include <stdlib.h>
 using namespace std;
 
-//Student class: It will contain the student variables I have declare student's roll number, name, percentage, grade and the 5 Subjects we have in this sem.
+//Student class: This class will contain the student variables I have declare student's roll number, name, percentage, grade and the 5 Subjects we have in this sem.
 
 class student
 {
