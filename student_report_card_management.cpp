@@ -61,6 +61,7 @@ void student::getdata()
 	calculate();
 }
 
+//Student class has the variable 'name' which we want to use in our get data function. Hence we are using scope resolution operator before getdata()
 void student::showdata() const
 {
 	cout<<"\nRoll number of student : "<<rollno;
@@ -95,6 +96,7 @@ void result();		//display result menu
 void intro();		//display welcome screen
 void entry_menu();	//display entry menu on screen
 
+//This is the main function. Execution of the program starts here.
 int main()
 {
     system("Color 6");
