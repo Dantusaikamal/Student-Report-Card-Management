@@ -39,6 +39,7 @@ void student::calculate()
 		grade='F';
 }
 
+//Student class has the variable 'name' which we want to use in our get data function. Hence we are using scope resolution operator before getdata()
 void student::getdata()
 {
 	cout<<"\nEnter The roll number of student ";
