@@ -316,9 +316,7 @@ void result()
 	}
 }
 
-//***************************************************************
-//    	INTRODUCTION FUNCTION
-//****************************************************************
+//The intro function is called first when the program starts executimg the main function. We gave it a design that resembles the authentic, old-school report card. 
 
 void intro()
 {
