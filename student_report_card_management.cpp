@@ -194,7 +194,7 @@ void display_sp(int n)
 }
 
 
-
+//functiion to edit student details
 void modify_student(int n)
 {
 	bool found=false;
