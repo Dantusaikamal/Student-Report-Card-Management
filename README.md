@@ -1,3 +1,10 @@
+[![Contributors][contributors-shield]][contributors-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+
 # Student-Report-Card-Management
 A Report card management system made using CPP by Team #1, CSE B submitting for our Object Oriented Programming using C++ mini project in the academic year 2020-21.
 
@@ -94,3 +101,18 @@ Project Link: [https://github.com/Dantusaikamal/Student-Report-Card-Management/]
 ## Acknowledgements
 
 * I would like to express my special thanks of gratitude to my faculty (Romy Sir) who gave us the golden opportunity to do this wonderful project on the topic Student Report Card Management, Which helped us gain a lot of indepth knowledge on the CPP core concepts as well as OOP concepts.
+
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[contributors-shield]: https://img.shields.io/github/contributors/Dantusaikamal/Student-Report-Card-Management.svg?style=flat-square
+[contributors-url]: https://github.com/Dantusaikamal/Student-Report-Card-Management/graphs/contributors
+[forks-shield]: https://img.shields.io/github/Dantusaikamal/Student-Report-Card-Management/network/members
+[stars-shield]: https://img.shields.io/github/stars/dantusaikamal/Student-Report-Card-Management.svg?style=flat-square
+[stars-url]: https://github.com/Dantusaikamal/Student-Report-Card-Management/stargazers
+[issues-shield]: https://img.shields.io/github/issues/dantusaikamal/Student-Report-Card-Management.svg?style=flat-square
+[issues-url]: https://github.com/Dantusaikamal/Student-Report-Card-Managementt/issues
+[license-shield]: https://img.shields.io/github/license/dantusaikamal/Student-Report-Card-Management.svg?style=flat-square
+[license-url]:https://github.com/Dantusaikamal/Student-Report-Card-Management/blob/master/LICENSE
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/in/Dantu-Sai-Kamal
